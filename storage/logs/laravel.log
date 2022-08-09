@@ -1,0 +1,10 @@
+[2020-01-26 23:17:32] E-CATERING.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "server" is not defined.
+
+Did you mean this?
+    serve in C:\xampp\htdocs\e-catering\vendor\symfony\console\Application.php:534
+Stack trace:
+#0 C:\xampp\htdocs\e-catering\vendor\symfony\console\Application.php(182): Symfony\Component\Console\Application->find('server')
+#1 C:\xampp\htdocs\e-catering\vendor\symfony\console\Application.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\e-catering\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\e-catering\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
